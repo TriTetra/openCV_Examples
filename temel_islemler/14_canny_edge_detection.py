@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import cv2
 
 cap = cv2.VideoCapture(0)
@@ -14,4 +15,22 @@ while True:
         break
 
 cap.release()
+=======
+import cv2
+
+cap = cv2.VideoCapture(0)
+
+while True:
+    ret, frame = cap.read()
+    frame = cv2.flip(frame,1)
+
+    edges = cv2.Canny(frame,100,200)
+    cv2.imshow("Frame",frame)
+    cv2.imshow("Edges",edges)
+
+    if cv2.waitKey(5) & 0xFF == ord("q"):
+        break
+
+cap.release()
+>>>>>>> 862eac3a172ae5897f0b06821cfe8a6f33164a35
 cv2.destroyAllWindows()
