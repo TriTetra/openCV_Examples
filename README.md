@@ -2,7 +2,7 @@
 OpenCV veya Open Source Computer Vision, sahip olduğumuz resim ve videolarla çalışırken büyük katkıda destek sağlayacak bir kütüphanedir. Görüntü işleme, bilgisayar görüşü ve makine öğrenimi için geniş bir işlevsellik yelpazesi sağlayan açık kaynaklı kodlardır. OpenCV ilk olarak 1999 da intel tarafından kullanıma açıldı.
 
 <div style="display: flex;">
-  <img src="https://cdn-static.tibame.com/course/545/brief/771c275d-6c24-43c8-83e4-644f8341646e_1_Y1S4hciQTfrB3xJuk2remA%E5%B7%B2%E5%8E%BB%E5%BA%95.png" title="Java" align="right" />
+  <img src="https://miro.medium.com/v2/resize:fit:875/0*Zs2vmh1zXm1aAQGk.jpg" title="Java" heigh=700 width=500 align="right" />
   <div style="text-align: left;">
     
   </div>
