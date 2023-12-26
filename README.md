@@ -18,4 +18,18 @@ OpenCV (Open Source Computer Vision) <b>açık kaynaklı bir kod kütüphanesidi
 
 <img src="Soruce/771c275d-6c24-43c8-83e4-644f8341646e_1_Y1S4hciQTfrB3xJuk2remA已去底.png" title="Python&OpenCV" heigh ="1200" width="900"/>
 
+# Computer Vision Terms
+Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
+<ul>
+    <li><a href="https://klein.mathunion.org/matrices-and-digital-images/">Image Processing</a></li>
+        <ul> 
+            <li>Cihazın dışarıda gördüğü şeylerin gördüğü nesnelerin ne olduğunu anlamaya çalışması yani aldığı görsel verileri işlemesidir.</li>
+            <li>Görüntü işleme bir matematiksel işlemdir, bilgisayarda görüntüler bir matris olarak algılanır nxn boyutunda bir matris şeklinde algılanır. Resmin derinliği varsa daha da farklı matematiksel yöntemlere gidilir.</li>
+            <br>
+           <img src="https://github.com/TriTetra/openCV_Examples/blob/main/Soruce/sample-matrix.gif" title="Python&OpenCV" heigh ="1200" width="900"/>
+           <img src="https://github.com/TriTetra/openCV_Examples/blob/main/Soruce/felix_the_cat_.png" title="Python&OpenCV" heigh ="1200" width="900"/>
+        </ul>
+</ul>
+
+
 
