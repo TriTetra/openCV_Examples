@@ -16,6 +16,6 @@ C++ dili kullanılarak geliştirilmiş bir kütüphanedir ama istenilen diller i
   </div>
 </div>
 
-<img src="Soruce/771c275d-6c24-43c8-83e4-644f8341646e_1_Y1S4hciQTfrB3xJuk2remA已去底.png" title="Python&OpenCV" align="center"/>
+<img src="Soruce/771c275d-6c24-43c8-83e4-644f8341646e_1_Y1S4hciQTfrB3xJuk2remA已去底.png" title="Python&OpenCV" heigh ="1200" width="900"/>
 
 
