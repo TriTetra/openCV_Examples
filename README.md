@@ -26,8 +26,18 @@ Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
             <li>Cihazın dışarıda gördüğü şeylerin gördüğü nesnelerin ne olduğunu anlamaya çalışması yani aldığı görsel verileri işlemesidir.</li>
             <li>Görüntü işleme bir matematiksel işlemdir, bilgisayarda görüntüler bir matris olarak algılanır nxn boyutunda bir matris şeklinde algılanır. Resmin derinliği varsa daha da farklı matematiksel yöntemlere gidilir.</li>
             <br>
-           <img src="https://github.com/TriTetra/openCV_Examples/blob/main/Soruce/sample-matrix.gif" title="Python&OpenCV" heigh ="1200" width="900"/>
-           <img src="https://github.com/TriTetra/openCV_Examples/blob/main/Soruce/felix_the_cat_.png" title="Python&OpenCV" heigh ="1200" width="900"/>
+             <figure>
+              <img src="https://github.com/TriTetra/openCV_Examples/blob/main/Soruce/sample-matrix.gif" alt="Figure:2" heigh ="1200" width="900">
+              <figcaption>Figure 2: The matrix corresponding to Felix The Cat</figcaption>
+              </figure>
+            <br><br>
+            <figure>
+              <img src="https://github.com/TriTetra/openCV_Examples/blob/main/Soruce/felix_the_cat_.png" alt="Figure:4" heigh ="1200" width="900">
+              <figcaption>Figure 4: Matrix transformations</figcaption>
+              </figure>
+            <br><br>
+           <li>Yukarıda gördüğünüz resimdeki kedi felix 35x35 matris (pixel) kullanılarak ortaya çıkarılmıştır, ekrandaki siyah noktalar 1’i beyaz noktalar da 0’ı ifade ederler. </li>
+           <li>Figure 4’te saat yönünde x derece döndürdüğümüzde bize basit bir eylem gibi gelsede bilgisayarda bir matrisi döndürmemiz gerekir, bu işlemi yapmak içinde matrisin transpozu alınır veya gerekli yöntemler ile istenilen şekle gelene kadar işlem devam eder.</li>
         </ul>
 </ul>
 
