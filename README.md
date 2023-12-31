@@ -97,6 +97,26 @@ Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
         </ul>       
 </ul>
 
+<ul>
+    <li><a href="https://albumentations.ai/docs/getting_started/keypoints_augmentation/">Keypoint Detection</a></li>
+        <ul> 
+            <li>Modelimiz ile eğitmeye çalıştığımız makineye belirli nesnelerin keypointlerini vererek daha sağlıklı bir veri sonucu elde edilir. Yüz, vücut hatları, kemik yapısı, hayvan türleri ve bir çok dahası gibi.</li>
+            <br>
+          <figure>
+              <img src="Soruce/keypoints_example_coco.jpg" alt="Figure:4" heigh ="1200" width="1000">
+              <figcaption>Keypoints annotations along with visualized edges between keypoints. Images are from the COCO dataset.</figcaption>
+              </figure>
+            <br><br>
+           <li>Key point kullanılmasının amaçları haraket takibi özellikle olsun daha çok o alanlarda kullanılır istenilen hareketin merkezi seçildikten sonra o alanın nasıkl bir şekilde haraket ettiğinin takip edilmsei gibi.</li>
+          <br>
+          <figure>
+              <img src="Soruce/keypoints_coco_example.jpg" alt="Figure:4" heigh ="1200" width="1000">
+              <figcaption>An example image with five keypoints from the COCO dataset</figcaption>
+              </figure>
+            <br><br>
+        </ul>       
+</ul>
+
 
 
 
