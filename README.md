@@ -38,8 +38,40 @@ Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
             <br><br>
            <li>Yukarıda gördüğünüz resimdeki kedi felix 35x35 matris (pixel) kullanılarak ortaya çıkarılmıştır, ekrandaki siyah noktalar 1’i beyaz noktalar da 0’ı ifade ederler. </li>
            <li>Figure 4’te saat yönünde x derece döndürdüğümüzde bize basit bir eylem gibi gelsede bilgisayarda bir matrisi döndürmemiz gerekir, bu işlemi yapmak içinde matrisin transpozu alınır veya gerekli yöntemler ile istenilen şekle gelene kadar işlem devam eder.</li>
-        </ul>
+        </ul>       
 </ul>
+
+<ul>
+    <li><a href="https://medium.com/analytics-vidhya/image-classification-techniques-83fd87011cac">Image Classification</a></li>
+        <ul> 
+            <li>Görüntüsünü aldığımız bir nesnenin ne olduğunu anlamaya veya sınıflandırmaya çalışılacak olan kısımdır.</li>
+          <br>
+             <figure>
+              <img src="Soruce/1oB3S5yHHhvougJkPXuc8og.gif" alt="Figure:2" heigh ="1200" width="900">
+              <figcaption>Classification: Cat&Dog</figcaption>
+              </figure>
+            <br><br>
+            <li>Aldığımız görüntüler de Input ile Output kısımlarının arıasındaki işleme noktası ANN (Artificial Neurol Network) yapay sinir ağları kullanılarak işlem gerçekleştirilir. Arada kalan kısmın diğer adıda hidden layer olarakta adlandırabiliriz.</li>
+            <li>Herşey den önce ANN kısmını eğitmemiz gerekmektedir ve bu eğitimi yaparken sınırları çizmeliyiz, yani verilen resimlerin önceden ne olduğunu öğretmeliyiz, bunun için bir veri kümesi oluşturuyoruz öğrenmseini istediğimiz veriler ile beraber.</li>
+          <br>
+            <figure>
+              <img src="Soruce/1aee81d1bd21b28d35ed23ab84a3b19b.jpg" alt="Figure:4" heigh ="1200" width="1000">
+              <figcaption>Top 100 Dogs</figcaption>
+              </figure>
+            <br><br>
+           <li>Örnek olarak yukarıdaki gibi köpek türleri ve onlara air fotoğrafları ANN e vererek eğitmemiz gereklidir bunun içinde ciddi bir veri kümesine ihtiyaç duyarız.</li>
+          <br>
+          <figure>
+              <img src="Soruce/MultilabelImageClassificationUsingDeepLearningExample_01.png" alt="Figure:4" heigh ="1200" width="1000">
+              <figcaption>image classification</figcaption>
+              </figure>
+            <br><br>
+           <li>Görüntü sınıflandırma çalışmalarında da görüntüyü tek bir sınıf olarak atamamız olmasıdır, modelimizi eğitme şeklimizde tek bir çıktı üzerine de eğitebiliriz veya modelin bilgisi olan veriler görselde varsa onlarında çıktılarını isteyebiliriz.</li>
+            <li>Yukarıdaki görselde ki sayılar da modelin tahmin oranıdır 1’e ne kadar yakınsa o kadar güvenlirdir (confidence scor). </li>
+        </ul>       
+</ul>
+
+
 
 
 
