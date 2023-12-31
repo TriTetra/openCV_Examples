@@ -17,6 +17,7 @@ OpenCV (Open Source Computer Vision) <b>açık kaynaklı bir kod kütüphanesidi
 </div>
 
 <img src="Soruce/771c275d-6c24-43c8-83e4-644f8341646e_1_Y1S4hciQTfrB3xJuk2remA已去底.png" title="Python&OpenCV" heigh ="1200" width="900"/>
+<hr>
 
 # Computer Vision Terms
 Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
@@ -71,6 +72,19 @@ Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
         </ul>       
 </ul>
 
+<ul>
+    <li><a href="https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/">Object Detection</a></li>
+        <ul> 
+            <li>Nesne tanıma ise görseldeki varlığın ne olduğunu algılar ve aynı zamanda o varlığın görselin ne tarafında olduğunu da algılamasıdır. Görüntünün içindeki nesnenin konumunu tahmin etme çalışması.</li>
+            <br>
+             <figure>
+              <img src="Soruce/multiple_bboxes.jpg" alt="Figure:2" heigh ="1200" width="900">
+              <figcaption>An example image with 3 bounding boxes from the COCO dataset</figcaption>
+              </figure>
+            <br><br>
+           <li>Yukarıda da gördüğünüz gibi görselin içinde 3 adet nesne tanınmış bunu yapabilmesi için önce bir ANN  geliştiriyoruz yani bir model bunun içinde bir veri seti oluşturmamız ve bu veiler ile de modelimizi istediğimiz görsel veya hedefe yönelik eğitmiş olammız gerekir. (yolo, rcnn, fasrtcnn)</li>
+        </ul>       
+</ul>
 
 
 
