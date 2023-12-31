@@ -86,6 +86,17 @@ Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
         </ul>       
 </ul>
 
+<ul>
+    <li><a href="https://medium.com/@sumit-kr-sharma/image-segmentation-in-computer-vision-438b54f3977e">Image Segmentation</a></li>
+        <ul> 
+            <li>Verilmiş olan görüntünün içindedki pixellerde nesnenin ne kadar yer kapladığı alanı ölçer.</li>
+            <br>
+              <img src="Soruce/68747470733a2f2f686162726173746f726167652e6f72672f776562742f62632f65672f67382f6263656767387a6467642d636f2d6c69703668786e3937366a646d2e6a706567.jpeg" alt="Figure:2" heigh ="1200" width="900">
+            <br><br>
+           <li>Belirli derin öğrenme teknikleri ile yapılabilir, basit seviyede görüntü okuma ile yapılması zor olan bir işlemdir.(unet)</li>
+        </ul>       
+</ul>
+
 
 
 
