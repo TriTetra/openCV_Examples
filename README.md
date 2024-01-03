@@ -22,7 +22,7 @@ OpenCV (Open Source Computer Vision) <b>açık kaynaklı bir kod kütüphanesidi
 # Computer Vision Terms
 Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
 <ul>
-    <li><a href="https://klein.mathunion.org/matrices-and-digital-images/">Image Processing</a></li>
+    <li><h3><a href="https://klein.mathunion.org/matrices-and-digital-images/">Image Processing</a></h3></li>
         <ul> 
             <li>Cihazın dışarıda gördüğü şeylerin gördüğü nesnelerin ne olduğunu anlamaya çalışması yani aldığı görsel verileri işlemesidir.</li>
             <li>Görüntü işleme bir matematiksel işlemdir, bilgisayarda görüntüler bir matris olarak algılanır nxn boyutunda bir matris şeklinde algılanır. Resmin derinliği varsa daha da farklı matematiksel yöntemlere gidilir.</li>
@@ -43,7 +43,7 @@ Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
 </ul>
 
 <ul>
-    <li><a href="https://medium.com/analytics-vidhya/image-classification-techniques-83fd87011cac">Image Classification</a></li>
+    <li><h3><a href="https://medium.com/analytics-vidhya/image-classification-techniques-83fd87011cac">Image Classification</a></h3></li>
         <ul> 
             <li>Görüntüsünü aldığımız bir nesnenin ne olduğunu anlamaya veya sınıflandırmaya çalışılacak olan kısımdır.</li>
           <br>
@@ -73,7 +73,7 @@ Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
 </ul>
 
 <ul>
-    <li><a href="https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/">Object Detection</a></li>
+    <li><h3><a href="https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/">Object Detection</a></h3></li>
         <ul> 
             <li>Nesne tanıma ise görseldeki varlığın ne olduğunu algılar ve aynı zamanda o varlığın görselin ne tarafında olduğunu da algılamasıdır. Görüntünün içindeki nesnenin konumunu tahmin etme çalışması.</li>
             <br>
@@ -87,7 +87,7 @@ Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
 </ul>
 
 <ul>
-    <li><a href="https://medium.com/@sumit-kr-sharma/image-segmentation-in-computer-vision-438b54f3977e">Image Segmentation</a></li>
+    <li><h3><a href="https://medium.com/@sumit-kr-sharma/image-segmentation-in-computer-vision-438b54f3977e">Image Segmentation</a></h3></li>
         <ul> 
             <li>Verilmiş olan görüntünün içindedki pixellerde nesnenin ne kadar yer kapladığı alanı ölçer.</li>
             <br>
@@ -98,7 +98,7 @@ Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
 </ul>
 
 <ul>
-    <li><a href="https://albumentations.ai/docs/getting_started/keypoints_augmentation/">Keypoint Detection</a></li>
+    <li><h3><a href="https://albumentations.ai/docs/getting_started/keypoints_augmentation/">Keypoint Detection</a></h3></li>
         <ul> 
             <li>Modelimiz ile eğitmeye çalıştığımız makineye belirli nesnelerin keypointlerini vererek daha sağlıklı bir veri sonucu elde edilir. Yüz, vücut hatları, kemik yapısı, hayvan türleri ve bir çok dahası gibi.</li>
             <br>
@@ -116,6 +116,61 @@ Bilgisayarlı görüdeki temel olarak kullanılan kavramlar;
             <br><br>
         </ul>       
 </ul>
+
+<hr>
+
+# Computer Vision Applications
+
+<ul>
+    <li><h3>Biomedical</h3></li>
+        <ul> 
+            <li>Hastalıkların eğitilmiş modellerce hızlı ve yüksek doğruluk oranı ile hesaplanması veya takip edilmesi olanağı sağlar.</li>
+            <br>
+              <img src="Soruce/2-Figure1-1.png" alt="Figure:4" heigh ="1200" width="1000">
+            <br><br>
+           <li><a href = "https://www.semanticscholar.org/paper/Analysis-of-Scoliosis-From-Spinal-X-Ray-Images-Imran-Huang/c72a7d1058eaa192098ffb5761d49d55f384f090/figure/1">Yukarıda</a> da görüdğünüz gibi bir röntgende ki kişinin omurgasının duruş bozukluğunu hesaplar ve hangi noktada nasıl bir sıkıntısı olduğunu analiz eder.</li>
+          <br>
+              <img src="Soruce/3-Figure2-1.png" alt="Figure:4" heigh ="1200" width="1000">
+            <br><br>
+        </ul>       
+</ul>
+
+<ul>
+    <li><h3>Agriculture</h3></li>
+        <ul> 
+            <li>Meyvelerin takibi, oldunluk durumunu anlama ve sağlık durumunu takip için de kullanılabilir.</li>
+            <br>
+              <img src="Soruce/Detection-and-identification-of-tomatoes-on-the-plant-in-real-time.png" alt="Figure:4" heigh ="1200" width="1000">
+            <br><br>
+        </ul>       
+</ul>
+
+<ul>
+    <li><h3>Manufacturing</h3></li>
+        <ul> 
+            <li>Bir üretim hattında üretimi tamamlanmış ürünlerin kalite kontrol kısmında da yer alarak daha işlevsel ve hız bakımından da daha hızlı bir <a href="https://www.mdpi.com/journal/sensors/editors_choice?listby=type&page_no=2&page_count=50">sistem</a> kurulabilir.</li>
+            <br>
+              <img src="Soruce/Results-from-the-new-PCB-images-The-defects-of-input-images-were-artificially-drawn.png" alt="Figure:4" heigh ="1200" width="1000">
+            <br><br>
+        </ul>       
+</ul>
+
+<ul>
+    <li><h3>Automative</h3></li>
+        <ul> 
+            <li>Belli seviyelerde geliştirilmiş olan cihazların otomatikleştirilmesi ve bu sayede zaman, sağlık, maliyet ve bunun gibi bir çok alanda tasarruf sağlanmasını sağlamaktır.</li>
+            <li>Örnek olarak arabalarda son yıllarda geliştirilmiş olan oto sürüş gibi ya da oto park sistemleridir.</li>
+            <br>
+              <img src="Soruce/2022.45.11-Tesla-Vision-Park-US.png" alt="Figure:4" heigh ="1200" width="1000">
+            <br><br>
+            <li>Şerit takip sistemleri bunun için arabanın hızını tekerleklerin dönüş yönünü ve bunun gibi bir çok dış etkenlerin hesaplamalarını öğretilmiş olan modeller ile otonom hale getirir.</li>
+          <br>
+              <img src="Soruce/xxmpcBirdsEyeScopeLKA.png" alt="Figure:4" heigh ="1200" width="1000">
+            <br><br>
+        </ul>       
+</ul>
+
+
 
 
 
