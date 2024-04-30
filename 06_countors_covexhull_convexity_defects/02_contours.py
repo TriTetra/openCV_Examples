@@ -1,7 +1,9 @@
 import cv2
 
+image_path = "C:\\Users\\Dimoontri\\Desktop\\opencv_udemy\\countors_covexhull_convexity_defects\\contour1.png"
+
 # Resmi oku
-img = cv2.imread("contour1.png")
+img = cv2.imread(image_path)
 
 # Gri tonlamaya çevir
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
